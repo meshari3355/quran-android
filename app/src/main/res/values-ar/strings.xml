@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">القرآن الكريم</string>
+    <string name="prayer_times_widget_description">ويدجت الصلاة القادمة</string>
+
+    <!-- Main Tab Names -->
+    <string name="tab_home">الرئيسية</string>
+    <string name="tab_quran">القرآن</string>
+    <string name="tab_azkar">الأذكار</string>
+    <string name="tab_prayer">الصلاة</string>
+    <string name="tab_more">المزيد</string>
+
+    <!-- Prayer Names -->
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_zuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+
+    <!-- Prayer Times Header -->
+    <string name="prayer_times">مواقيت الصلاة</string>
+    <string name="next_prayer">الصلاة التالية</string>
+    <string name="time_remaining">المتبقي</string>
+    <string name="prayer_time">وقت الصلاة</string>
+
+    <!-- Azkar Categories -->
+    <string name="azkar_morning">أذكار الصباح</string>
+    <string name="azkar_evening">أذكار المساء</string>
+    <string name="azkar_after_prayer">أذكار بعد الصلاة</string>
+    <string name="azkar_sleep">أذكار النوم</string>
+    <string name="azkar_waking">أذكار الاستيقاظ</string>
+    <string name="azkar_mosque">أذكار المسجد</string>
+    <string name="azkar_travel">أذكار السفر</string>
+    <string name="azkar_wudu">أذكار الوضوء</string>
+    <string name="azkar_adhan">أذكار الأذان</string>
+    <string name="azkar_home">أذكار المنزل</string>
+    <string name="azkar_food">أذكار الأكل</string>
+    <string name="azkar_tasbih">تسبيح وذكر</string>
+
+    <!-- Dua Categories -->
+    <string name="dua_quranic">أدعية قرآنية</string>
+    <string name="dua_prophets">أدعية الأنبياء</string>
+    <string name="dua_distress">دعاء الكرب</string>
+    <string name="dua_istikharah">دعاء الاستخارة</string>
+    <string name="dua_provision">دعاء الرزق</string>
+    <string name="dua_forgiveness">دعاء المغفرة</string>
+    <string name="dua_parents">دعاء الوالدين</string>
+    <string name="dua_protection">دعاء الحفظ</string>
+    <string name="dua_balance">أذكار الميزان</string>
+
+    <!-- Tools -->
+    <string name="tool_qibla">القبلة</string>
+    <string name="tool_hijri_calendar">التقويم الهجري</string>
+    <string name="tool_zakat_calculator">حاسبة الزكاة</string>
+    <string name="tool_nearby_mosques">المساجد القريبة</string>
+    <string name="tool_hadith">الأحاديث</string>
+    <string name="tool_forty_nawawi">الأربعون النووية</string>
+    <string name="tool_audio_library">المكتبة الصوتية</string>
+    <string name="tool_islamic_library">المكتبة الإسلامية</string>
+    <string name="tool_fatwas">الفتاوى</string>
+    <string name="tool_settings">الإعدادات</string>
+
+    <!-- Common Actions -->
+    <string name="action_search">بحث</string>
+    <string name="action_favorites">المفضلة</string>
+    <string name="action_download">تحميل</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_play">تشغيل</string>
+    <string name="action_pause">إيقاف</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_stop">إيقاف</string>
+    <string name="action_next">التالي</string>
+    <string name="action_previous">السابق</string>
+    <string name="action_bookmark">حفظ العلامة</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_ok">موافق</string>
+    <string name="action_back">رجوع</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_light_mode">فاتح</string>
+    <string name="settings_dark_mode">داكن</string>
+    <string name="settings_auto_mode">تلقائي</string>
+    <string name="settings_enable_notifications">تفعيل الإشعارات</string>
+    <string name="settings_prayer_notifications">إشعارات الصلاة</string>
+    <string name="settings_about">عن التطبيق</string>
+    <string name="settings_rate_app">تقييم التطبيق</string>
+    <string name="settings_feedback">إرسال ملاحظات</string>
+    <string name="settings_privacy">سياسة الخصوصية</string>
+    <string name="settings_terms">شروط الاستخدام</string>
+    <string name="settings_quran_text_size">حجم خط القرآن</string>
+    <string name="settings_quran_translation">ترجمة القرآن</string>
+    <string name="settings_tafsir">التفسير</string>
+    <string name="settings_reciter">الشيخ</string>
+    <string name="settings_clear_cache">مسح الذاكرة المؤقتة</string>
+    <string name="settings_export_bookmarks">تصدير العلامات</string>
+    <string name="settings_import_bookmarks">استيراد العلامات</string>
+
+    <!-- Surah Information -->
+    <string name="surah_type_makki">مكية</string>
+    <string name="surah_type_madani">مدنية</string>
+    <string name="surah_revelation_type">نوع السورة</string>
+    <string name="surah_verses_count">عدد الآيات</string>
+    <string name="surah_revelation_order">ترتيب النزول</string>
+
+    <!-- Quranic Content -->
+    <string name="quran">القرآن الكريم</string>
+    <string name="surah">السورة</string>
+    <string name="ayah">الآية</string>
+    <string name="juz">الجزء</string>
+    <string name="hizb">الحزب</string>
+    <string name="page">الصفحة</string>
+    <string name="bookmark">علامة</string>
+    <string name="bookmarks">العلامات</string>
+    <string name="translation">الترجمة</string>
+    <string name="tafsir">التفسير</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="french">الفرنسية</string>
+    <string name="german">الألمانية</string>
+    <string name="spanish">الإسبانية</string>
+    <string name="indonesian">الإندونيسية</string>
+    <string name="urdu">الأردية</string>
+
+    <!-- Audio Related -->
+    <string name="audio_reciter">الشيخ</string>
+    <string name="audio_playback">التشغيل الصوتي</string>
+    <string name="audio_speed">سرعة التشغيل</string>
+    <string name="audio_repeat">إعادة التشغيل</string>
+    <string name="audio_download">تحميل الصوت</string>
+    <string name="audio_downloaded">تم التحميل</string>
+    <string name="audio_downloading">جارِ التحميل</string>
+    <string name="audio_size">حجم الملف</string>
+    <string name="audio_duration">المدة</string>
+
+    <!-- Location Related -->
+    <string name="location_enable">تفعيل الموقع</string>
+    <string name="location_permission">إذن الموقع</string>
+    <string name="location_required">الموقع مطلوب</string>
+    <string name="location_disabled">الموقع غير مفعل</string>
+    <string name="location_distance">المسافة</string>
+    <string name="location_direction">الاتجاه</string>
+    <string name="qibla_direction">اتجاه القبلة</string>
+
+    <!-- Notifications -->
+    <string name="notification_prayer_time">حان وقت الصلاة</string>
+    <string name="notification_iqamah_time">قد تقام الصلاة الآن</string>
+    <string name="notification_daily_ayah">آية اليوم</string>
+    <string name="notification_daily_hadith">حديث اليوم</string>
+    <string name="notification_daily_azkar">ذكر اليوم</string>
+
+    <!-- Hijri Calendar -->
+    <string name="hijri_calendar">التقويم الهجري</string>
+    <string name="hijri_month_muharram">محرم</string>
+    <string name="hijri_month_safar">صفر</string>
+    <string name="hijri_month_rabi_al_awwal">ربيع الأول</string>
+    <string name="hijri_month_rabi_al_thani">ربيع الثاني</string>
+    <string name="hijri_month_jumada_al_awwal">جمادى الأولى</string>
+    <string name="hijri_month_jumada_al_thani">جمادى الثانية</string>
+    <string name="hijri_month_rajab">رجب</string>
+    <string name="hijri_month_sha_ban">شعبان</string>
+    <string name="hijri_month_ramadan">رمضان</string>
+    <string name="hijri_month_shawwal">شوال</string>
+    <string name="hijri_month_dhu_al_qi_dah">ذو القعدة</string>
+    <string name="hijri_month_dhu_al_hijjah">ذو الحجة</string>
+
+    <!-- Gregorian Months -->
+    <string name="gregorian_january">يناير</string>
+    <string name="gregorian_february">فبراير</string>
+    <string name="gregorian_march">مارس</string>
+    <string name="gregorian_april">أبريل</string>
+    <string name="gregorian_may">مايو</string>
+    <string name="gregorian_june">يونيو</string>
+    <string name="gregorian_july">يوليو</string>
+    <string name="gregorian_august">أغسطس</string>
+    <string name="gregorian_september">سبتمبر</string>
+    <string name="gregorian_october">أكتوبر</string>
+    <string name="gregorian_november">نوفمبر</string>
+    <string name="gregorian_december">ديسمبر</string>
+
+    <!-- Days of Week -->
+    <string name="day_sunday">الأحد</string>
+    <string name="day_monday">الإثنين</string>
+    <string name="day_tuesday">الثلاثاء</string>
+    <string name="day_wednesday">الأربعاء</string>
+    <string name="day_thursday">الخميس</string>
+    <string name="day_friday">الجمعة</string>
+    <string name="day_saturday">السبت</string>
+
+    <!-- Zakat Calculator -->
+    <string name="zakat_calculator">حاسبة الزكاة</string>
+    <string name="zakat_gold">الذهب</string>
+    <string name="zakat_silver">الفضة</string>
+    <string name="zakat_cash">النقود</string>
+    <string name="zakat_nisab">النصاب</string>
+    <string name="zakat_amount">مبلغ الزكاة</string>
+    <string name="zakat_rate">معدل الزكاة</string>
+
+    <!-- Mosques -->
+    <string name="mosques">المساجد</string>
+    <string name="nearby_mosques">المساجد القريبة</string>
+    <string name="mosque_name">اسم المسجد</string>
+    <string name="mosque_distance">المسافة</string>
+    <string name="mosque_direction">الاتجاه</string>
+    <string name="mosque_address">العنوان</string>
+    <string name="mosque_phone">الهاتف</string>
+
+    <!-- Hadith -->
+    <string name="hadith">الأحاديث</string>
+    <string name="hadith_sahih_bukhari">صحيح البخاري</string>
+    <string name="hadith_sahih_muslim">صحيح مسلم</string>
+    <string name="hadith_narrator">الراوي</string>
+    <string name="hadith_grade">درجة الحديث</string>
+
+    <!-- Islamic Library -->
+    <string name="islamic_library">المكتبة الإسلامية</string>
+    <string name="audio_library">المكتبة الصوتية</string>
+    <string name="books">الكتب</string>
+    <string name="lectures">المحاضرات</string>
+    <string name="author">المؤلف</string>
+    <string name="publisher">الناشر</string>
+
+    <!-- General Messages -->
+    <string name="loading">جارِ التحميل...</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="no_results">لا توجد نتائج</string>
+    <string name="error">خطأ</string>
+    <string name="error_message">حدث خطأ. يرجى المحاولة لاحقاً</string>
+    <string name="connection_error">خطأ في الاتصال</string>
+    <string name="no_internet">لا يوجد اتصال إنترنت</string>
+    <string name="retry">إعادة محاولة</string>
+    <string name="success">نجح</string>
+    <string name="thank_you">شكراً لك</string>
+
+    <!-- Home Screen -->
+    <string name="last_read">آخر ما قرأت</string>
+    <string name="continue_reading">متابعة القراءة</string>
+    <string name="today_verse">آية اليوم</string>
+    <string name="today_hadith">حديث اليوم</string>
+    <string name="reading_progress">تقدم القراءة</string>
+    <string name="recent">الأخيرة</string>
+
+    <!-- Dialog Titles -->
+    <string name="dialog_confirm">تأكيد</string>
+    <string name="dialog_warning">تنبيه</string>
+    <string name="dialog_info">معلومة</string>
+    <string name="dialog_error">خطأ</string>
+
+    <!-- Accessibility -->
+    <string name="desc_app_icon">أيقونة التطبيق</string>
+    <string name="desc_menu">القائمة</string>
+    <string name="desc_search">البحث</string>
+    <string name="desc_settings">الإعدادات</string>
+    <string name="desc_favorite">إضافة إلى المفضلة</string>
+    <string name="desc_remove_favorite">إزالة من المفضلة</string>
+    <string name="desc_share">مشاركة</string>
+    <string name="desc_copy">نسخ</string>
+
+</resources>

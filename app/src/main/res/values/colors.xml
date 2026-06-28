@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode Colors -->
+    <color name="light_background">#F8EFE0</color>
+    <color name="light_card">#FFFAF0</color>
+    <color name="light_text">#1F1614</color>
+    <color name="light_secondary_text">#7C625E</color>
+    <color name="light_tertiary_text">#A69F96</color>
+    <color name="light_border">#E8DDD2</color>
+    <color name="light_divider">#E0D5CA</color>
+
+    <!-- Dark Mode Colors -->
+    <color name="dark_background">#171717</color>
+    <color name="dark_card">#242424</color>
+    <color name="dark_text">#F3EDDF</color>
+    <color name="dark_secondary_text">#A69F96</color>
+    <color name="dark_tertiary_text">#7C625E</color>
+    <color name="dark_border">#3A3A3A</color>
+    <color name="dark_divider">#2F2F2F</color>
+
+    <!-- Accent Colors -->
+    <color name="gold_light">#B8840A</color>
+    <color name="gold_dark">#D9B356</color>
+    <color name="gold_primary">#C99C1C</color>
+
+    <!-- Accent Colors - Additional Palette -->
+    <color name="teal_light">#00897B</color>
+    <color name="teal_dark">#00BCD4</color>
+
+    <color name="indigo_light">#3F51B5</color>
+    <color name="indigo_dark">#673AB7</color>
+
+    <color name="emerald_light">#00796B</color>
+    <color name="emerald_dark">#009688</color>
+
+    <color name="rose_light">#C2185B</color>
+    <color name="rose_dark">#E91E63</color>
+
+    <color name="purple_light">#512DA8</color>
+    <color name="purple_dark">#9C27B0</color>
+
+    <color name="amber_light">#F57F17</color>
+    <color name="amber_dark">#FFC107</color>
+
+    <color name="blue_light">#1565C0</color>
+    <color name="blue_dark">#2196F3</color>
+
+    <color name="red_light">#C62828</color>
+    <color name="red_dark">#F44336</color>
+
+    <color name="green_light">#2E7D32</color>
+    <color name="green_dark">#4CAF50</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+
+    <!-- Semantic Colors - Light Theme -->
+    <color name="light_surface">#FFFAF0</color>
+    <color name="light_surface_variant">#EFE4D8</color>
+    <color name="light_on_surface">#1F1614</color>
+    <color name="light_on_surface_variant">#7C625E</color>
+    <color name="light_outline">#9C8C82</color>
+
+    <!-- Semantic Colors - Dark Theme -->
+    <color name="dark_surface">#171717</color>
+    <color name="dark_surface_variant">#3A3A3A</color>
+    <color name="dark_on_surface">#F3EDDF</color>
+    <color name="dark_on_surface_variant">#A69F96</color>
+    <color name="dark_outline">#9C8C82</color>
+
+    <!-- Prayer Times Colors -->
+    <color name="prayer_fajr">#2196F3</color>
+    <color name="prayer_sunrise">#FF9800</color>
+    <color name="prayer_zuhr">#FFD700</color>
+    <color name="prayer_asr">#FF6F00</color>
+    <color name="prayer_maghrib">#FF5722</color>
+    <color name="prayer_isha">#4A148C</color>
+
+    <!-- Quran Accent -->
+    <color name="quran_accent_light">#B8840A</color>
+    <color name="quran_accent_dark">#D9B356</color>
+
+    <!-- Hijab/Religious Sensitivity Colors -->
+    <color name="islamic_green">#08853B</color>
+    <color name="islamic_green_light">#35A76D</color>
+
+    <!-- Text Selection -->
+    <color name="text_selection_light">#B3B8840A</color>
+    <color name="text_selection_dark">#B3D9B356</color>
+
+    <!-- Placeholder/Disabled -->
+    <color name="disabled_light">#D0D0D0</color>
+    <color name="disabled_dark">#4A4A4A</color>
+
+    <!-- Shadow Colors -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="shadow_dark">#2D000000</color>
+
+</resources>

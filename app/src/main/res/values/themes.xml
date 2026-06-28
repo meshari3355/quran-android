@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme (Material3 - used as base for Compose) -->
+    <style name="Theme.Quran.Light" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/quran_accent_light</item>
+        <item name="colorOnPrimary">@color/light_text</item>
+        <item name="colorPrimaryContainer">@color/light_card</item>
+        <item name="colorOnPrimaryContainer">@color/light_text</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/teal_light</item>
+        <item name="colorOnSecondary">@color/light_text</item>
+        <item name="colorSecondaryContainer">@color/light_card</item>
+        <item name="colorOnSecondaryContainer">@color/light_text</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/indigo_light</item>
+        <item name="colorOnTertiary">@color/light_text</item>
+        <item name="colorTertiaryContainer">@color/light_card</item>
+        <item name="colorOnTertiaryContainer">@color/light_text</item>
+
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/light_background</item>
+        <item name="colorOnSurface">@color/light_text</item>
+        <item name="colorSurfaceVariant">@color/light_card</item>
+        <item name="colorOnSurfaceVariant">@color/light_secondary_text</item>
+
+        <!-- Outline Colors -->
+        <item name="colorOutline">@color/light_border</item>
+        <item name="colorOutlineVariant">@color/light_divider</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/light_text</item>
+        <item name="colorErrorContainer">@color/light_card</item>
+        <item name="colorOnErrorContainer">@color/error</item>
+
+        <!-- Android Attributes -->
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="android:textColorPrimary">@color/light_text</item>
+        <item name="android:textColorSecondary">@color/light_secondary_text</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.Quran.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/quran_accent_dark</item>
+        <item name="colorOnPrimary">@color/dark_background</item>
+        <item name="colorPrimaryContainer">@color/dark_card</item>
+        <item name="colorOnPrimaryContainer">@color/gold_dark</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/teal_dark</item>
+        <item name="colorOnSecondary">@color/dark_background</item>
+        <item name="colorSecondaryContainer">@color/dark_card</item>
+        <item name="colorOnSecondaryContainer">@color/teal_dark</item>
+
+        <!-- Tertiary Colors -->
+        <item name="colorTertiary">@color/indigo_dark</item>
+        <item name="colorOnTertiary">@color/dark_background</item>
+        <item name="colorTertiaryContainer">@color/dark_card</item>
+        <item name="colorOnTertiaryContainer">@color/indigo_dark</item>
+
+        <!-- Surface Colors -->
+        <item name="colorSurface">@color/dark_background</item>
+        <item name="colorOnSurface">@color/dark_text</item>
+        <item name="colorSurfaceVariant">@color/dark_card</item>
+        <item name="colorOnSurfaceVariant">@color/dark_secondary_text</item>
+
+        <!-- Outline Colors -->
+        <item name="colorOutline">@color/dark_border</item>
+        <item name="colorOutlineVariant">@color/dark_divider</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/light_text</item>
+        <item name="colorErrorContainer">@color/dark_card</item>
+        <item name="colorOnErrorContainer">@color/error</item>
+
+        <!-- Android Attributes -->
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="android:textColorPrimary">@color/dark_text</item>
+        <item name="android:textColorSecondary">@color/dark_secondary_text</item>
+    </style>
+
+    <!-- Default Theme (Light) -->
+    <style name="Theme.Quran" parent="Theme.Quran.Light" />
+
+</resources>

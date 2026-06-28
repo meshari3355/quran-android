@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Warm beige/gold gradient background matching the app icon design -->
+    <!-- Base warm beige -->
+    <path
+        android:fillColor="#F5E6C8"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    <!-- Lighter top area for gradient effect -->
+    <path
+        android:fillColor="#FAF0DC"
+        android:pathData="M0,0 L108,0 L108,40 Q54,50 0,40 Z"
+        android:alpha="0.7" />
+    <!-- Subtle golden glow in center -->
+    <path
+        android:fillColor="#E8D5A0"
+        android:pathData="M20,20 Q54,10 88,20 Q98,54 88,88 Q54,98 20,88 Q10,54 20,20 Z"
+        android:alpha="0.3" />
+    <!-- Bottom darker area -->
+    <path
+        android:fillColor="#D4C095"
+        android:pathData="M0,75 Q54,65 108,75 L108,108 L0,108 Z"
+        android:alpha="0.4" />
+    <!-- Decorative corner ornament bottom-left -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M0,108 Q0,95 8,95 Q5,98 5,102 Q5,105 0,108 Z"
+        android:alpha="0.5" />
+    <!-- Decorative corner ornament bottom-right -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M108,108 Q108,95 100,95 Q103,98 103,102 Q103,105 108,108 Z"
+        android:alpha="0.5" />
+</vector>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ============================================ -->
+    <!-- القرآن الكريم App Icon - Golden Quran Design -->
+    <!-- Matching the iOS icon style                  -->
+    <!-- ============================================ -->
+
+    <!-- Large Crescent Moon wrapping around the book -->
+    <!-- Outer crescent arc -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M62,14 C78,14 92,28 92,48 C92,68 78,82 62,82 C72,82 80,68 80,48 C80,28 72,14 62,14 Z" />
+    <!-- Inner crescent highlight -->
+    <path
+        android:fillColor="#D4B85C"
+        android:pathData="M64,17 C77,17 88,30 88,47 C88,64 77,77 64,77 C73,77 78,64 78,47 C78,30 73,17 64,17 Z"
+        android:alpha="0.6" />
+
+    <!-- Open Book - Left Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30 L52,28 Q54,28 54,30 L54,72 Q54,74 52,74 L30,72 Q28,72 28,70 L28,32 Q28,30 30,30 Z" />
+    <!-- Left page shadow -->
+    <path
+        android:fillColor="#E8DCC8"
+        android:pathData="M28,32 L28,70 Q28,72 30,72 L52,74 Q54,74 54,72 L54,70 L32,68 Q30,68 30,66 L30,32 Z"
+        android:alpha="0.3" />
+
+    <!-- Open Book - Right Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,28 L80,30 Q82,30 82,32 L82,70 Q82,72 80,72 L58,74 Q56,74 56,72 L56,30 Q56,28 58,28 Z" />
+    <!-- Right page shadow -->
+    <path
+        android:fillColor="#E8DCC8"
+        android:pathData="M82,32 L82,70 Q82,72 80,72 L58,74 Q56,74 56,72 L56,70 L78,68 Q80,68 80,66 L80,32 Z"
+        android:alpha="0.3" />
+
+    <!-- Book Spine - Golden Binding -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M53,27 L57,27 L57,75 L53,75 Z" />
+    <!-- Spine highlight -->
+    <path
+        android:fillColor="#D4B85C"
+        android:pathData="M54,27 L56,27 L56,75 L54,75 Z"
+        android:alpha="0.5" />
+
+    <!-- Top binding arc -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M50,26 L60,26 Q55,24 50,26 Z" />
+    <!-- Bottom binding arc -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M50,76 L60,76 Q55,78 50,76 Z" />
+
+    <!-- Decorative text lines on left page -->
+    <path
+        android:pathData="M33,38 L50,38"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M33,43 L50,43"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M33,48 L50,48"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M33,53 L49,53"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M33,58 L48,58"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M33,63 L47,63"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+
+    <!-- Decorative text lines on right page -->
+    <path
+        android:pathData="M60,38 L77,38"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M60,43 L77,43"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M60,48 L77,48"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M60,53 L76,53"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M60,58 L75,58"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+    <path
+        android:pathData="M60,63 L74,63"
+        android:strokeWidth="0.8"
+        android:strokeColor="#C9A84C" />
+
+    <!-- Small decorative star near crescent -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M85,20 L86.5,24 L91,24 L87.5,27 L88.5,31 L85,28.5 L81.5,31 L82.5,27 L79,24 L83.5,24 Z"
+        android:alpha="0.8" />
+
+    <!-- Bottom decorative line -->
+    <path
+        android:pathData="M30,82 L80,82"
+        android:strokeWidth="0.5"
+        android:strokeColor="#C9A84C"
+        android:alpha="0.6" />
+
+    <!-- Decorative Islamic corner ornaments -->
+    <!-- Top-left corner -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M18,18 L22,18 L22,19 L19,19 L19,22 L18,22 Z"
+        android:alpha="0.5" />
+    <!-- Top-right corner -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M86,18 L90,18 L90,22 L89,22 L89,19 L86,19 Z"
+        android:alpha="0.5" />
+    <!-- Bottom-left corner -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M18,86 L18,90 L22,90 L22,89 L19,89 L19,86 Z"
+        android:alpha="0.5" />
+    <!-- Bottom-right corner -->
+    <path
+        android:fillColor="#C9A84C"
+        android:pathData="M89,86 L89,89 L86,89 L86,90 L90,90 L90,86 Z"
+        android:alpha="0.5" />
+
+</vector>

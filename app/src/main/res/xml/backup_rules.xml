@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include SharedPreferences files -->
+    <include domain="sharedpref" path="." />
+
+    <!-- Include database files -->
+    <include domain="database" path="." />
+
+    <!-- Include files directory -->
+    <include domain="file" path="." />
+
+    <!-- Exclude cache directory -->
+    <exclude domain="cache" path="." />
+
+    <!-- Exclude files that shouldn't be backed up -->
+    <exclude domain="file" path="downloads/" />
+    <exclude domain="file" path="temp/" />
+
+</full-backup-content>
