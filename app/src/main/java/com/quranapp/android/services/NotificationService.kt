@@ -61,6 +61,10 @@ data class QuranReminderNotification(
 class NotificationService(
     private val context: Context
 ) {
+    private companion object {
+        const val IQAMA_DELAY_MINUTES = 15
+    }
+
     private val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
     private val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
 
@@ -78,7 +82,7 @@ class NotificationService(
                 "مواقيت الصلاة",
                 NotificationManager.IMPORTANCE_HIGH
             ).apply {
-                description = "إشعارات وقت الصلاة والتنبيه قبلها"
+                description = "إشعارات وقت الصلاة والتنبيه قبلها والإقامة بعدها"
                 enableVibration(true)
                 setShowBadge(true)
             }
@@ -205,6 +209,18 @@ class NotificationService(
                             kind = "time",
                             reminderMinutesBefore = reminderMinutesBefore
                         )
+
+                        val iqamaTime = prayerTime + TimeUnit.MINUTES.toMillis(IQAMA_DELAY_MINUTES.toLong())
+                        if (iqamaTime > System.currentTimeMillis()) {
+                            schedulePrayerAlarm(
+                                requestCode = requestCodeFor(prayerName, "iqama"),
+                                triggerAtMillis = iqamaTime,
+                                prayerName = prayerName,
+                                prayerTime = timeStr,
+                                kind = "iqama",
+                                reminderMinutesBefore = reminderMinutesBefore
+                            )
+                        }
                     } catch (e: Exception) {
                         // Log error but continue
                     }

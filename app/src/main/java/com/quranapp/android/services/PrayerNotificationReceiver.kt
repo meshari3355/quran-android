@@ -46,15 +46,15 @@ class PrayerNotificationReceiver : BroadcastReceiver() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
-        val title = if (kind == "before") {
-            "اقترب وقت صلاة $prayerName"
-        } else {
-            "حان وقت صلاة $prayerName"
+        val title = when (kind) {
+            "before" -> "اقترب وقت صلاة $prayerName"
+            "iqama" -> "حان وقت إقامة صلاة $prayerName"
+            else -> "حان وقت صلاة $prayerName"
         }
-        val message = if (kind == "before") {
-            "باقي $minutesBefore دقائق على صلاة $prayerName - $prayerTime"
-        } else {
-            "حان الآن وقت صلاة $prayerName - $prayerTime"
+        val message = when (kind) {
+            "before" -> "باقي $minutesBefore دقائق على صلاة $prayerName - $prayerTime"
+            "iqama" -> "مرّت 15 دقيقة على أذان $prayerName."
+            else -> "حان الآن وقت صلاة $prayerName - $prayerTime"
         }
 
         val notification = NotificationCompat.Builder(context, CHANNEL_ID)
@@ -69,7 +69,7 @@ class PrayerNotificationReceiver : BroadcastReceiver() {
         val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         notificationManager.notify(NOTIFICATION_ID_BASE + "$prayerName:$kind".hashCode(), notification)
 
-        if (kind == "time") {
+        if (kind == "iqama") {
             reschedulePrayerTimes(context)
         }
     }

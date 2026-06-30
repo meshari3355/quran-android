@@ -9,9 +9,6 @@
     <!-- Include files directory -->
     <include domain="file" path="." />
 
-    <!-- Exclude cache directory -->
-    <exclude domain="cache" path="." />
-
     <!-- Exclude files that shouldn't be backed up -->
     <exclude domain="file" path="downloads/" />
     <exclude domain="file" path="temp/" />

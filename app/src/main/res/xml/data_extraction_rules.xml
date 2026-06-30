@@ -2,13 +2,16 @@
 <data-extraction-rules>
     <cloud-backup>
         <include domain="sharedpref" path="." />
-        <exclude domain="cache" path="." />
+        <include domain="database" path="." />
+        <include domain="file" path="." />
         <exclude domain="file" path="downloads/" />
+        <exclude domain="file" path="temp/" />
     </cloud-backup>
     <device-transfer>
         <include domain="sharedpref" path="." />
         <include domain="database" path="." />
         <include domain="file" path="." />
-        <exclude domain="cache" path="." />
+        <exclude domain="file" path="downloads/" />
+        <exclude domain="file" path="temp/" />
     </device-transfer>
 </data-extraction-rules>
