@@ -10,7 +10,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.quranapp.android"
+        applicationId = "tech.meshari.quran"
         minSdk = 26
         targetSdk = 34
         versionCode = 8
