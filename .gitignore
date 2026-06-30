@@ -32,3 +32,4 @@ Thumbs.db
 # Generated APK/AAB outputs
 *.apk
 *.aab
+release-artifacts/
